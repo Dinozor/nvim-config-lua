@@ -20,7 +20,9 @@ vim.opt.undofile = true
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
+vim.opt.listchars = "eol:~,tab:>.,trail:~,extends:>,precedes:<,space:_"
 
+vim.cmd [[colorscheme elflord]]
 
 vim.opt.termguicolors = true
 
